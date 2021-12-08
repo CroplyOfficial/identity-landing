@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+body {
+  min-height: 100vh;
+  background: url("/imgs/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Poppins";
+  margin: 0;
+}
+
+body .hero-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 100px;
+}
+
+body .hero-section .identity-github {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  width: 40vw;
+  margin-left: 7.5vw;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  text-align: center;
+}
+
+body .hero-section .identity-github .heading,
+body .hero-section .identity-github .tagline {
+  width: 100%;
+}
+
+body .hero-section .identity-github .heading {
+  font-size: 2rem;
+  letter-spacing: 5px;
+  color: #566977;
+}
+
+body .hero-section .identity-github .tagline {
+  font-size: 1.35rem;
+  color: #666666;
+  letter-spacing: 3px;
+  font-weight: 600;
+}
+
+body .hero-section .identity-github .github {
+  background: #566977;
+  padding: 12px 35px;
+  font-size: 1rem;
+  color: white;
+  margin-top: 30px;
+  border: none;
+  border-radius: 5px;
+  letter-spacing: 4px;
+  font-weight: 600;
+}
+
+body .hero-section .identity-github .github:hover {
+  cursor: pointer;
+}
+
+body .hero-section .identity-img {
+  width: 50vw;
+  margin-left: 10vw;
+}
+
+body .repos {
+  margin-top: 100px;
+  color: white;
+  background: #566977;
+  padding: 40px 10vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .repos .repo {
+  width: 22vw;
+  text-align: center;
+}
+
+body .repos .repo .repo-heading {
+  font-size: 2rem;
+  letter-spacing: 4px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+body .repos .repo sup {
+  font-size: 1rem;
+}
+
+body .repos .repo .repo-desc {
+  margin-top: 10px;
+  text-align: center;
+  letter-spacing: 1.4px;
+  color: #c4c4c4;
+}
+
+body .repos .repo a {
+  color: white;
+  display: block;
+  margin-top: 20px;
+  text-decoration: none;
+}
+
+body a {
+  text-decoration: none;
+}
+
+body .youtube {
+  padding: 7.5px 30px;
+  background: #566977;
+  color: white;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 600;
+  position: absolute;
+  top: 20px;
+  right: 10vw;
+}
+
+body footer {
+  background: #566977;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+body footer .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body footer .links img {
+  height: 60px;
+  margin: 0 10px;
+}
+
+body footer .copy {
+  width: 100%;
+  padding: 40px;
+  padding-top: 15px;
+  text-align: center;
+  color: white;
+}
+
+@media screen and (max-width: 1300px) {
+  body .hero-section {
+    -ms-flex-wrap: wrap-reverse;
+        flex-wrap: wrap-reverse;
+  }
+  body .hero-section .identity-img {
+    width: 100vw;
+    margin-left: 0;
+  }
+  body .hero-section .identity-github {
+    padding: 10px 15vw;
+    width: 70vw;
+    margin-left: 0;
+  }
+  body .hero-section .identity-github .heading {
+    font-size: 1.75rem;
+  }
+  body .hero-section .identity-github .tagline {
+    font-size: 1rem;
+  }
+  body .repos {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  body .repos .repo {
+    padding: 20px 0;
+    width: 80vw;
+  }
+}
+/*# sourceMappingURL=index.css.map */
